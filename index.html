@@ -4,9 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <h1>Hi!</h1> 
+    <div class="container">
+      <div class="sidebar">
+        <div class="logo">
+          <img src="assets/view-dashboard.svg"/>
+          <p>Dashboard</p>
+        </div>
+
+        <div class="features">
+          <div class="menu-item">
+            <img src="assets/home.svg" />
+            <p>Home</p>
+          </div>
+
+          <div class="menu-item">
+            <img src="assets/card-account-details-outline.svg" />
+            <p>Profile</p>
+          </div>
+
+          <div class="menu-item">
+            <img src="assets/message-reply.svg" />
+            <p>Messages</p>
+          </div>
+
+          <div class="menu-item">
+            <img src="assets/clock-time-three.svg" />
+            <p>History</p>
+          </div>
+
+          <div class="menu-item">
+            <img src="assets/note-multiple.svg" />
+            <p>Tasks</p>
+          </div>
+
+          <div class="menu-item">
+            <img src="assets/account-group.svg" />
+            <p>Communities</p>
+          </div>
+        </div>
+
+        <div class="service">
+          <div class="menu-item">
+            <img src="assets/cog.svg" />
+            <p>Settings</p>
+          </div>
+
+          <div class="menu-item">
+            <img src="assets/help-box.svg" />
+            <p>Support</p>
+          </div>
+          
+          <div class="menu-item">
+            <img src="assets/shield-check.svg" />
+            <p>Privacy</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="banner">
+        <div class="search">
+          <form action="#" method="GET">
+            <button type="submit">
+              <img src="assets/magnify.svg" alt="Submit" />
+            </button>
+            <input type="search" name="search-bar">
+          </form>
+
+          <div class="notifications-profile">
+            <img class="bell" src="assets/bell-ring-outline.svg" />
+            <img class="circular-placeholder" src="" />
+            <p>Thomas Noel</p>
+          </div>
+        </div>
+
+        <div class="greeting">
+          <div class="friendly">
+            <img class="greeting-img" src="" />
+            <div class="greeting-text">
+              <p class="top-line">Hi there,</p>
+              <p class="bottom-line">Thomas Noel (@thomas)</p>
+            </div>
+          </div>
+
+          <div class="actions">
+            <button class="button-new">New</button>
+            <button class="button-upload">Upload</button>
+            <button class="button-share">Share</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <!--img src="assets/star-plus-outline.svg" /-->
+        <!--img src="assets/eye-plus-outline.svg" /-->
+        <!--img src="assets/source-fork.svg" /-->
+      </div>
+    </div>
   </body>
 </html>
