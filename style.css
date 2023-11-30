@@ -133,7 +133,7 @@ img {
   font-weight: bold;
 }
 
-.bottom-line {
+.greeting-text .bottom-line {
   font-size: 1.5rem;
 }
 
@@ -169,7 +169,12 @@ img {
   gap: 10px;
 }
 
-.content .projects {
+.projects {
+  display: grid;
+  grid-template-rows: 1fr 11fr; /* 1fr 5fr for extras */
+}
+
+.content .projects .section-content {
   display: grid;
   gap: 10px;
   padding: 4px;
@@ -187,12 +192,30 @@ img {
   gap: 10px;
 }
 
-.content .extras .announcements {
+.extras .announcements {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
 }
 
-.content .extras .trending {
+.extras .trending {
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+}
+
+.section-content {
+  display: grid;
+  gap: 10px;
+  padding: 4px;
 }
 
 .big-header {
   background-color: green;
+}
+
+.recommended-profile {
+  background-color: red;
+}
+
+.small-body-box {
+  background-color: red;
 }
