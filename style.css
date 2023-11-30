@@ -183,7 +183,7 @@ img {
 }
 
 .projects-body {
-  background-color: red;
+  background-color: white;
 }
 
 .content .extras {
@@ -223,13 +223,13 @@ img {
 }
 
 .big-header {
-  background-color: green;
+  font-size: 1.5rem;
 }
 
 .recommended-profile {
-  background-color: red;
+  background-color: white;
 }
 
 .small-body-box {
-  background-color: red;
+  background-color: white;
 }
