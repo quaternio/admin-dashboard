@@ -208,6 +208,20 @@ img {
   padding: 4px;
 }
 
+.profile-img {
+  width: 2vw;
+  height: 100%;
+  place-self: center;
+  border-radius: 50%;
+  background-color: #cccccc;
+  border-color: black;
+}
+
+.recommended-profile {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
 .big-header {
   background-color: green;
 }
