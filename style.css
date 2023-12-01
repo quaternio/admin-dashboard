@@ -75,7 +75,11 @@ img {
   display: grid;
   grid-template-rows: 2fr 3fr;
   background-color: white;
-  padding: 1vh 3vw;
+  gap: 3vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-left: 0.5vw;
+  padding-right: 1.5vw;
 }
 
 .banner .search {
@@ -112,14 +116,16 @@ img {
   display: grid;
   align-items: center;
   grid-template-columns: 2fr 1fr 2fr;
+  gap: 10px;
 }
 
 .banner .search .notifications-profile .bell {
   place-self: end; 
+  align-self: center;
 }
 
-.banner .search .notifications-profile .circular-placeholder {
-  width: 2vw;
+.banner .search .notifications-profile .profile-pic {
+  width: 60%;
   height: 100%;
   place-self: center;
   border-radius: 50%;
@@ -139,6 +145,7 @@ img {
 
 .banner .greeting .friendly {
   display: grid;
+  align-items: center;
   grid-template-columns: 1fr 3fr;
 }
 
@@ -151,7 +158,7 @@ img {
 }
 
 .banner .greeting .friendly .greeting-img {
-  width: 40%;
+  width: 45%;
   height: 100%;
   place-self: center;
   border-radius: 50%;
@@ -164,12 +171,13 @@ img {
   justify-content: space-between;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2vw;
+  padding-right: 3vw;
 }
 
 [class^='button-'] {
   color: white;
   font-weight: bold;
-  height: 4vh;
+  height: 5vh;
   border-radius: 20px;
   border-style: none;
   background-color: #3292D4;
