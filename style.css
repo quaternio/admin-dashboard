@@ -21,7 +21,7 @@ img {
 
 .sidebar {
   display: grid;
-  grid-template-rows: 1fr 3fr 6fr;
+  grid-template-rows: 1fr 3fr 1.5fr 4.5fr;
   gap: 5vh;
   background-color: #1992D3;
   grid-row: 1 / 3;
@@ -38,6 +38,19 @@ img {
   align-items: center;
   gap: 10px;
   grid-template-columns: 1fr 4fr;
+  padding-left: 1vw;
+}
+
+.sidebar .features {
+  padding-left: 1.75vw;
+  display: grid;
+  gap: 10px;
+}
+
+.sidebar .service {
+  padding-left: 1.75vw;
+  display: grid;
+  gap: 10px;
 }
 
 .sidebar .logo img {
@@ -55,7 +68,7 @@ img {
 }
 
 .menu-item p {
-  font-size: 0.85rem;
+  font-size: 1.2rem;
 }
 
 .banner {
@@ -138,7 +151,7 @@ img {
 }
 
 .banner .greeting .friendly .greeting-img {
-  width: 2vw;
+  width: 40%;
   height: 100%;
   place-self: center;
   border-radius: 50%;
@@ -184,6 +197,14 @@ img {
 
 .projects-body {
   background-color: white;
+  border-color: #F0B42A;
+  border-left-style: solid;
+  border-width: 8px;
+  border-radius: 8px;
+}
+
+.project-content {
+  font-size: 0.75rem;
 }
 
 .content .extras {
@@ -204,13 +225,12 @@ img {
 
 .section-content {
   display: grid;
-  gap: 10px;
   padding: 4px;
 }
 
 .profile-img {
-  width: 2vw;
   height: 100%;
+  width: 80%;
   place-self: center;
   border-radius: 50%;
   background-color: #cccccc;
@@ -219,6 +239,7 @@ img {
 
 .recommended-profile {
   display: grid;
+  align-content: center;
   grid-template-columns: 1fr 3fr;
 }
 
@@ -232,4 +253,12 @@ img {
 
 .small-body-box {
   background-color: white;
+}
+
+.profile-text .top-line {
+  font-size: 0.7rem;
+}
+
+.profile-text .bottom-line {
+  font-size: 0.75rem;
 }
