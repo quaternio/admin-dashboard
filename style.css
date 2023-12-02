@@ -226,6 +226,7 @@ img {
 }
 
 .project-content {
+  color: #636363;
   font-size: 0.75rem;
 }
 
@@ -291,6 +292,15 @@ img {
 
 .small-body-box {
   background-color: white;
+  border-color: #cecece;
+  border-bottom-style: solid;
+  border-width: 1px;
+  padding-top: 1vh;
+}
+
+.last {
+  border-bottom-style: none;
+  border-width: 0px;
 }
 
 .profile-text .top-line {
@@ -303,4 +313,16 @@ img {
 
 .header {
   font-weight: bold;
+}
+
+.alt1 {
+  filter: invert(100%);
+}
+
+.alt2 {
+  filter: invert(66%);
+}
+
+.alt3 {
+  filter: invert(33%);
 }
